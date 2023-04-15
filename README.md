@@ -17,6 +17,14 @@ To use the GUI, run the code in a Jupyter notebook. Four float sliders will appe
 - The GUI is created using ipywidgets, including four float sliders for the sepal length, sepal width, petal length, and petal width, a submit button, and an output label to display the prediction.
 - The `on_submit_clicked` function is defined to handle the click event of the submit button and display the prediction in the output label.
 
+## Limitation 
+
+Naive Bayes assumes that features are independent, which is often not true in real-world situations. This can lead to poor performance when features are correlated.
+
+The algorithm assumes data is normally distributed. If the data is not Gaussian, the classifier might not perform well.
+
+The classifier works well with continuous features, but it might not be the best choice for categorical features with many categories.
+
 ## Bayes' theorem is a rule in probability theory that helps us find the probability of an event occurring based on new information. It's a way of updating our beliefs when we have new evidence. The formula for Bayes' theorem is:
 
 P(A|B) = (P(B|A) * P(A)) / P(B)
