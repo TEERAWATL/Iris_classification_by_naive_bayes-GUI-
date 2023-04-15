@@ -17,7 +17,7 @@ To use the GUI, run the code in a Jupyter notebook. Four float sliders will appe
 - The GUI is created using ipywidgets, including four float sliders for the sepal length, sepal width, petal length, and petal width, a submit button, and an output label to display the prediction.
 - The `on_submit_clicked` function is defined to handle the click event of the submit button and display the prediction in the output label.
 
-##Bayes' theorem is a rule in probability theory that helps us find the probability of an event occurring based on new information. It's a way of updating our beliefs when we have new evidence. The formula for Bayes' theorem is:
+## Bayes' theorem is a rule in probability theory that helps us find the probability of an event occurring based on new information. It's a way of updating our beliefs when we have new evidence. The formula for Bayes' theorem is:
 
 P(A|B) = (P(B|A) * P(A)) / P(B)
 
